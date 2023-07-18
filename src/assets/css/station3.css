@@ -1,0 +1,29 @@
+/* BEM class naming convention */
+.card {
+    width: auto; /* Width not explicitly given so it is auto */
+    height: auto; /* Height not explicitly given so it is auto */
+    padding: 16px; /* Adjust according to visual needs */
+    background-color: #fff;
+  }
+  
+  .card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 8px; /* Spacing below the image */
+  }
+  
+  .card__title {
+    color: #282828;
+    font-size: 14px;
+    margin: 0; /* Remove margin as per requirement */
+  }
+  
+  .card__description {
+    color: #282828;
+    font-size: 12px;
+    margin: 0; /* Remove margin as per requirement */
+  }
+  
+  body {
+    background-color: #fff;
+  }

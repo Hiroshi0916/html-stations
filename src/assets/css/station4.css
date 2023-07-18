@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ビューポートの高さいっぱいに広がるように設定 */
+    margin: 0;
+    background-color: #C4C4C4;
+}
+
+header {
+    background-color: #ffffff;
+    height: 50px;
+}
+
+footer {
+    background-color: #ffffff;
+    height: 50px;
+    margin-top: auto; /* 自動的に一番下に配置 */
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 8px;
+}
+
+.card__title {
+    color: #282828;
+    font-size: 14px;
+    margin: 0;
+}
+
+.card__description {
+    color: #282828;
+    font-size: 12px;
+    margin: 0;
+}
